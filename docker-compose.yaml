@@ -16,7 +16,7 @@ services:
 
   database_m10web:
     container_name: database_m10web
-    image: mysql:8.4.5
+    image: mysql:9.4.0
     command: --default-authentication-plugin=mysql_native_password
     restart: always
     environment:
